@@ -1,15 +1,17 @@
+import Register from "./Register"
+import Login from "./Login"
 
-import Login from "./components/Login"
-import Register from "./components/Register"
 
 function App() {
   
   return (
-    <>
-    <h1>NatalyAlejandra</h1>
-    <Register/>
+    <div>
+      <h1>Nataly & Alejandra</h1>
+      <Register/>
       <Login/>
-    </>
+      
+      
+    </div>
   )
 }
 
